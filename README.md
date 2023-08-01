@@ -26,7 +26,7 @@ tests.
 
 ## Deliverables
 
-### Dark Mode Toggle
+<!-- ### Dark Mode Toggle
 
 In the `App` component, there is a button for toggling between dark mode and
 light mode. Using the `useState` hook, create a state variable in the `App`
@@ -48,8 +48,8 @@ your state variable:
 <div className="App light">
 {/* for light mode */}
 </div>
-```
-
+``` -->
+<!--
 ### Add to Cart
 
 In the `Item` component, when the user clicks the `<button>` element, the item
@@ -69,7 +69,7 @@ is in the cart is by changing the className on the `<li>` element:
 If the item _is not_ in the cart, the `<button>` element's text should read "Add
 to Cart", and if the item _is_ in the cart, the `<button>` element's text should
 read "Remove From Cart". Naturally, you'll also need to add state to the `Item`
-component to solve this deliverable!
+component to solve this deliverable! -->
 
 ### Filter
 
