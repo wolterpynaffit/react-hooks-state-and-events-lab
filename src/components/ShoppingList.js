@@ -23,6 +23,7 @@ function ShoppingList({ items }) {
         </select>
       </div>
       <ul className="Items">
+        {/* everytime a filter is set, a new array of objects is created. We then take those objects and map them to new values. (id, name, category) It rerenders with these values  */}
         {filteredItems.map((item) => (
           <Item key={item.id} name={item.name} category={item.category} />
         ))}
